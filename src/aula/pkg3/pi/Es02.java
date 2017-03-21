@@ -5,13 +5,20 @@
  */
 package aula.pkg3.pi;
 
+import java.util.Scanner;
+
 /**
  *
  * @author aline.poliveira3
  */
 public class Es02 {
     public static void main(String[] args) {
+        Scanner NN = new Scanner(System.in);
+        //ENTRADA
         
+        //PROCESSAMENTO
+        
+        //SAIDA
     }
    
 }
