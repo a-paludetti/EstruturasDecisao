@@ -9,36 +9,23 @@ import java.util.Scanner;
 
 /**
  *
- * @author aline.poliveira3 21/02/2017
+ * @author aline.poliveira3
  */
 public class Es01 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        //Bhaskara as avesas (sp???)
         Scanner NN = new Scanner(System.in);
-        //ENTRADAS
-        System.out.print("X1: ");
-        double x1 = NN.nextDouble();
-        System.out.println("");
-        System.out.print("X2: ");
-        double x2 = NN.nextDouble();
-        System.out.println("");
-        System.out.print("C: ");
-        double c = NN.nextDouble();
-        System.out.println("");
 
-        //PROCESSAMENTO
-        double sum = x1 + x2;
-        double pr = x1 * x2;
-        double a = c / pr;
-        double b = -(a * sum);
+        //ENTRADA
+        System.out.print("Qual teu nome? ");
+        String Nome = NN.next();
 
-        //SAIDA
-        System.out.printf("%.2fx² + %.2fx + %.2f = 0", a, b, c);
-        System.out.println("");
+        //Processamento & Saída
+        if (Nome != null) {
+            System.out.println("Olá, " + Nome);
+        } else {
+            System.out.println("Olá, mundo!");
+        }
+
     }
-
 }
