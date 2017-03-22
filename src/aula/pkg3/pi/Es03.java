@@ -11,11 +11,10 @@ import java.util.Scanner;
  *
  * @author aline.poliveira3
  */
-public class Es02 {
+public class Es03 {
 
     public static void main(String[] args) {
         Scanner NN = new Scanner(System.in);
-       
-    }
 
+    }
 }
