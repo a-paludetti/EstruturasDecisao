@@ -29,6 +29,7 @@ public class Es04_adivina {
         System.out.println("Adivinhe o número");
         int adv = Integer.parseInt(NN.nextLine()); //lê apenas a informação contida na linha.
 
+//Processamentos e saída
         if (N == adv) {
             System.out.println("Número correto");
         } else {
