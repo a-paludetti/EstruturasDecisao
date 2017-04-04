@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author aline.poliveira3
  */
-public class Es01 {
+public class Es01_saudacao {
 
     public static void main(String[] args) {
         Scanner NN = new Scanner(System.in);
