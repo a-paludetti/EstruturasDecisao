@@ -27,28 +27,28 @@ public class Switchcase_if {
                 if (temperatura >= 10 && temperatura <= 17) {
                     System.out.println("Material A pode ser transportado");
                 } else {
-                    System.out.println("Temperatura fora dos limites para transporte");
+                    System.out.println("Temperatura fora dos limites de segurança para transporte");
                 }
                 break;
             case "B":
                 if (temperatura >= 11 && temperatura <= 16) {
                     System.out.println("Material B pode ser transportado");
                 } else {
-                    System.out.println("Temperatura fora dos limites para transporte");
+                    System.out.println("Temperatura fora dos limites de segurança para transporte");
                 }
                 break;
             case "C":
                 if (temperatura >= 12 && temperatura <= 15) {
                     System.out.println("Material C pode ser transportado");
                 } else {
-                    System.out.println("Temperatura fora dos limites para transporte");
+                    System.out.println("Temperatura fora dos limites de segurança para transporte");
                 }
                 break;
             case "D":
                 if (temperatura >= 13 && temperatura <= 14) {
                     System.out.println("Material D pode ser transportado");
                 } else {
-                    System.out.println("Temperatura fora dos limites para transporte");
+                    System.out.println("Temperatura fora dos limites de segurança para transporte");
                 }
                 break;
         }
