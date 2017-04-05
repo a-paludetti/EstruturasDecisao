@@ -11,12 +11,12 @@ import java.util.Scanner;
  *
  * @author aline.poliveira3
  */
-public class Switchcase_if_v2 {
+public class Es19_transporte_materiais_v2 {
 
     public static void main(String[] args) {
         Scanner NN = new Scanner(System.in);
 
-        System.out.printf("Material é 'A', 'B', 'C' ou 'D' ");
+        System.out.printf("O material é 'A', 'B', 'C' ou 'D' ");
         String material = NN.nextLine();
 
         System.out.printf("Temperatura ambiente: ");

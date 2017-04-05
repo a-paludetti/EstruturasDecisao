@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author aline.poliveira3
  */
-public class Switchcase_if_v1 {
+public class Es19_transporte_materiais_v1 {
 
     public static void main(String[] args) {
         Scanner NN = new Scanner(System.in);
