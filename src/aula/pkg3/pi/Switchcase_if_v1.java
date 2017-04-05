@@ -22,7 +22,7 @@ public class Switchcase_if_v1 {
         System.out.printf("Temperatura ambiente: ");
         double temperatura = Double.parseDouble(NN.nextLine());
 
-        switch (material) {
+        switch (material.toUpperCase()) {
             case "A":
                 if (temperatura >= 10 && temperatura <= 17) {
                     System.out.println("Material A pode ser transportado");
@@ -51,6 +51,7 @@ public class Switchcase_if_v1 {
                     System.out.println("Temperatura fora dos limites de segurança para transporte");
                 }
                 break;
+            default: System.out.println("Não pode ser transportado.");
         }
     }
 }
